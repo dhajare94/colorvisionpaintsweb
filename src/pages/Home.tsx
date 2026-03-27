@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import BuildingVisualizer from '../components/BuildingVisualizer';
+import EnquiryForm from '../components/EnquiryForm';
 
 const productSlides = [
   {
@@ -219,23 +220,9 @@ const Home = () => {
               </p>
             </div>
 
-            {/* CTA instead of Form */}
-            <div className="w-full lg:w-2/3 bg-white rounded-[1.5rem] p-10 lg:p-16 shadow-xl shadow-neutral-900/5 ring-1 ring-black/5 flex flex-col items-center justify-center text-center">
-              <div className="w-16 h-16 rounded-full bg-neutral-50 flex items-center justify-center text-neutral-950 mb-6">
-                <iconify-icon icon="solar:letter-unread-linear" width="32"></iconify-icon>
-              </div>
-              <h3 className="text-2xl font-normal text-neutral-900 mb-4" style={{ fontFamily: "'Marcellus', serif" }}>
-                Ready to transform your project?
-              </h3>
-              <p className="text-neutral-600 mb-10 max-w-md mx-auto">
-                Share your requirements with us through our official enquiry form and our experts will get back to you with a tailored solution.
-              </p>
-              <a 
-                href="/contact" 
-                className="inline-flex items-center justify-center rounded-full bg-neutral-950 px-10 py-4 font-bold text-white transition-all hover:bg-neutral-800 active:scale-95 text-xs uppercase tracking-[0.2em]"
-              >
-                Go to Contact Form
-              </a>
+            {/* Form - Now wider and will be made shorter internally */}
+            <div className="w-full lg:w-2/3 bg-white rounded-[1.5rem] p-6 lg:p-8 shadow-xl shadow-neutral-900/5 ring-1 ring-black/5">
+              <EnquiryForm source="Website Home" createdFrom="Get In Touch - Homepage" />
             </div>
           </div>
         </div>
