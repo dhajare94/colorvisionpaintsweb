@@ -58,7 +58,7 @@ const Contact = () => {
                   <div>
                     <p className="text-[9px] font-bold uppercase tracking-widest text-neutral-400 mb-1">Address</p>
                     <p className="text-lg font-medium text-neutral-900 leading-relaxed max-w-sm">
-                      SHOP NO.3, SAWAN HERITAGE, PLOT NO .20 & 21, SECTOR 15, KALAMBOLI, NAVI MUMBAI - 410218.
+                      OFFICE NO 3, SAWAN HERITAGE, PLOT NO .20 & 21, SECTOR 15, KALAMBOLI, NAVI MUMBAI - 410218.
                     </p>
                   </div>
                 </div>
